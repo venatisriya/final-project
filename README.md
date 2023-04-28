@@ -69,6 +69,7 @@ Usage:
 
   `input_data` refers to the input data frame. `column1`, `column2`, are integers specifying which columns to use from the data frame. Only two columns can be specified. `predict_val` provides the test value to predict the output of the three models. `summary_req = TRUE` prints the corresponding algorithm summaries. 
 
+### Package Demonstration
 
 I tested the functions in my package using the `mtcars` dataset. 
 
@@ -110,6 +111,10 @@ F-statistic: 30.53 on 1 and 30 DF,  p-value: 5.282e-06
 null device 
           1 
 ```
+
+Plot: 
+
+![](https://github.com/venatisriya/final-project/blob/main/Regression_plot.png)
 
 Testing decision tree with three columns of data
 
@@ -215,6 +220,10 @@ Testing decision tree with three columns of data
 
 ```
 
+Plot: 
+
+![](https://github.com/venatisriya/final-project/blob/main/Decision_Tree_plot.png)
+
 Testing random forest with three columns of data
 
 ```
@@ -279,7 +288,16 @@ No. of variables tried at each split: 1
           IncNodePurity
 data[, 1]        95.927
 ```
+Histogram plot
 
+```
+> cars <- mtcars
+> plot_hist(cars, 2)
+```
+
+Plot:
+
+![](https://github.com/venatisriya/final-project/blob/main/Histogram_plot.png)
 
 
 
