@@ -69,7 +69,7 @@ Usage:
 
   `input_data` refers to the input data frame. `column1`, `column2`, are integers specifying which columns to use from the data frame. Only two columns can be specified. `predict_val` provides the test value to predict the output of the three models. `summary_req = TRUE` prints the corresponding algorithm summaries. 
 
-
+The link to my blog is [here](https://venatisriya.blogspot.com/2023/04/r-programming-final-project.html).
 
 
 
