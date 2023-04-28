@@ -69,6 +69,47 @@ Usage:
 
   `input_data` refers to the input data frame. `column1`, `column2`, are integers specifying which columns to use from the data frame. Only two columns can be specified. `predict_val` provides the test value to predict the output of the three models. `summary_req = TRUE` prints the corresponding algorithm summaries. 
 
+
+I tested the functions in my package using the `mtcars` dataset. 
+
+```
+> flexible_linear_reg(cars, 3, 5, TRUE, 3.3, TRUE)
+
+Call:
+lm(formula = y ~ x)
+
+Coefficients:
+(Intercept)            x  
+   4.303472    -0.003064  
+
+
+Call:
+lm(formula = y ~ x)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-0.85409 -0.23642  0.01812  0.13112  0.99196 
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  4.3034722  0.1447123  29.738  < 2e-16 ***
+x           -0.0030639  0.0005545  -5.526 5.28e-06 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.3826 on 30 degrees of freedom
+Multiple R-squared:  0.5044,	Adjusted R-squared:  0.4879 
+F-statistic: 30.53 on 1 and 30 DF,  p-value: 5.282e-06
+
+       1 
+4.293361 
+null device 
+          1 
+          ```
+
+
+
+My blog also explains these details.
 The link to my blog is [here](https://venatisriya.blogspot.com/2023/04/r-programming-final-project.html).
 
 
