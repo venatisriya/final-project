@@ -6,7 +6,7 @@
 ### Package Description
 
 A package for performing data analysis with different models given a data frame. 
-Three data analysis models are provided - Linear Regression, Decision Tree, Random Forest. 
+Three data analysis models are provided - **Linear Regression, Decision Tree, Random Forest**. 
 Additionally, supporting functons are provided to extract statistical values and plots. 
 
 ### Package Functions
@@ -36,7 +36,7 @@ Usage:
   `x` and `y` refer to the independent column vector and the dependent column vector respectively. `summary_req = TRUE` prnts the obtained regression equation. `predict_val` provides the test value to predict the output of regression. `plot_req = TRUE` plots the data and the regression line.   
 - `flexible_linear_reg(dataset, column1, column2, summary_req, predict_val, plot_req)`
 
-  `dataset` refers to the input data frame. `column1` and `column2` are integers specifying which columns to use from the data frame. `summary_req = TRUE` prnts the obtained regression equation. `predict_val` provides the test value to predict the output of regression. `plot_req = TRUE` plots the data and the regression line. 
+  `dataset` refers to the input data frame. `column1` and `column2` are integers specifying which columns to use from the data frame. `summary_req = TRUE` prints the obtained regression equation. `predict_val` provides the test value to predict the output of regression. `plot_req = TRUE` plots the data and the regression line. 
   
 
 **3) dec_tree.R**
