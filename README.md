@@ -47,7 +47,7 @@ Usage:
 
 - `dec_tree(dataset, column1, column2, column3, column4, plot_req, predict_val)`
 
-  `dataset` refers to the input data frame. `column1`, `column2`, `column3`, `column4` are integers specifying which columns to use from the data frame. Specify a `column3` and/or `column4` as 0 if you do not want all the four columns. `predict_val` provides the test value to predict the output of the tree. `plot_req = TRUE` plots the decision tree obtained. 
+  `dataset` refers to the input data frame. `column1`, `column2`, `column3`, `column4` are integers specifying which columns to use from the data frame. Specify `column3` and/or `column4` as 0 if you do not want all the four columns. `predict_val` provides the test value to predict the output of the tree. `plot_req = TRUE` plots the decision tree obtained. 
 
 **4) random_forest.R**
 
@@ -57,7 +57,7 @@ Usage:
 
 - `random_forest(dataset, column1, column2, column3, column4, summary_req, predict_val)`
 
-  `dataset` refers to the input data frame. `column1`, `column2`, `column3`, `column4` are integers specifying which columns to use from the data frame. Specify a `column3` and/or `column4` as 0 if you do not want all the four columns. `predict_val` provides the test value to predict the output of the random forest algorithm. `summary_req = TRUE` prints the algorithm summary. 
+  `dataset` refers to the input data frame. `column1`, `column2`, `column3`, `column4` are integers specifying which columns to use from the data frame. Specify `column3` and/or `column4` as 0 if you do not want all the four columns. `predict_val` provides the test value to predict the output of the random forest algorithm. `summary_req = TRUE` prints the algorithm summary. 
 
 **4) models.R**
 
