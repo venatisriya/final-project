@@ -8,6 +8,7 @@
 A package for performing data analysis with different models given a data frame. 
 Three data analysis models are provided - **Linear Regression, Decision Tree, Random Forest**. 
 Additionally, supporting functions are provided to extract statistical values and plots. 
+The novelty is the flexibility provided to perform data analysis directly on a data frame instead of performing data preprocessing.
 
 ### Package Functions
 
