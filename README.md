@@ -31,9 +31,11 @@ Implements the linear regression algorithm
 
 Usage:
 
-- linear_reg(x, y, summary_req, predict_val, plot_req)
+- linear_reg(x, y, summary_req, predict_val, plot_req) 
+
   `x` and `y` refer to the independent column vector and the dependent column vector respectively. `summary_req = TRUE` prnts the obtained regression equation. `predict_val` provides the test value to predict the output of regression. `plot_req = TRUE` plots the data and the regression line.   
 - flexible_linear_reg(dataset, column1, column2, summary_req, predict_val, plot_req)
+
   `dataset` refers to the input data frame. `column1` and `column2` are integers specifying which columns to use from the data frame. `summary_req = TRUE` prnts the obtained regression equation. `predict_val` provides the test value to predict the output of regression. `plot_req = TRUE` plots the data and the regression line. 
   
 
