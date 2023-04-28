@@ -41,10 +41,33 @@ Usage:
 
 **3) dec_tree.R**
 
+Implements the decision tree algorithm
 
+Usage:
 
+- `dec_tree(dataset, column1, column2, column3, column4, plot_req, predict_val)`
 
+  `dataset` refers to the input data frame. `column1`, `column2`, `column3`, `column4` are integers specifying which columns to use from the data frame. Specify a `column3` and/or `column4` as 0 if you do not want all the four columns. `predict_val` provides the test value to predict the output of the tree. `plot_req = TRUE` plots the decision tree obtained. 
 
+**4) random_forest.R**
+
+Implements the random forest algorithm
+
+Usage:
+
+- `random_forest(dataset, column1, column2, column3, column4, summary_req, predict_val)`
+
+  `dataset` refers to the input data frame. `column1`, `column2`, `column3`, `column4` are integers specifying which columns to use from the data frame. Specify a `column3` and/or `column4` as 0 if you do not want all the four columns. `predict_val` provides the test value to predict the output of the random forest algorithm. `summary_req = TRUE` prints the algorithm summary. 
+
+**4) models.R**
+
+Implements a function to use linear regression, decision tree and random forest in one. Can be used for easy comparison purposes.
+
+Usage:
+
+- `all_models(input_data, column1, column2, summary_req, predict_val, plot_req)`
+
+  `input_data` refers to the input data frame. `column1`, `column2`, are integers specifying which columns to use from the data frame. Only two columns can be specified. `predict_val` provides the test value to predict the output of the three models. `summary_req = TRUE` prints the corresponding algorithm summaries. 
 
 
 
